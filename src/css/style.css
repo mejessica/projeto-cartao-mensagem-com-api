@@ -1,6 +1,7 @@
 body{
     background-color: var(--background-color);
-    font-family: 'Manrope', sans-serif;   
+    font-family: 'Manrope', sans-serif;  
+    font-weight: 800; 
 }
 main{
     display: flex;
@@ -11,30 +12,50 @@ main{
 
 .message-card{
     display: flex;
-    max-width: 330px;
+    /* max-width: 330px; */
     flex-direction: column;
     background-color: var(--advice-card-color);
-    height: 200px;
+    /* height: 200px; */
     border-radius: 9px;
     align-items: center;  
-    justify-content: space-between; 
-    padding: 25px; 
+    /* justify-content: space-between;  */
+    /* padding: 25px;  */
+    margin: 20px;
+    width: 345px;
 }
 
 .message-card .numero {
     color: var(--advice-dice-color);    
-    font-weight: 800;
-    font-size: 9px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
 
 }
 
 .message-card .message {
     color: var(--text-color);
     text-align: center;
+    font-size: 23px;
+    padding: 23px;
 
 }
 
-.message-card .divisoria{
-    width: 280px;
+.message-card .divisória-desktop{
+    width: 300px;
 }
 
+.message-card .botao-update{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+.message-card .botao-update:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
