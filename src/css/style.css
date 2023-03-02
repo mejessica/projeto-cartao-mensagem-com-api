@@ -1,0 +1,40 @@
+body{
+    background-color: var(--background-color);
+    font-family: 'Manrope', sans-serif;   
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.message-card{
+    display: flex;
+    max-width: 330px;
+    flex-direction: column;
+    background-color: var(--advice-card-color);
+    height: 200px;
+    border-radius: 9px;
+    align-items: center;  
+    justify-content: space-between; 
+    padding: 25px; 
+}
+
+.message-card .numero {
+    color: var(--advice-dice-color);    
+    font-weight: 800;
+    font-size: 9px;
+
+}
+
+.message-card .message {
+    color: var(--text-color);
+    text-align: center;
+
+}
+
+.message-card .divisoria{
+    width: 280px;
+}
+
