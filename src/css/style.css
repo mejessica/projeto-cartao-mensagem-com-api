@@ -24,7 +24,7 @@ main{
     width: 345px;
 }
 
-.message-card .numero {
+.message-card #numero {
     color: var(--advice-dice-color);    
     font-size: 15px;
     text-transform: uppercase;
@@ -33,7 +33,7 @@ main{
 
 }
 
-.message-card .message {
+.message-card #message {
     color: var(--text-color);
     text-align: center;
     font-size: 23px;
@@ -45,7 +45,7 @@ main{
     width: 300px;
 }
 
-.message-card .botao-update{
+.message-card #botao-update{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -54,7 +54,7 @@ main{
     transform: translateY(50%);
 }
 
-.message-card .botao-update:hover{
+.message-card #botao-update:hover{
     color: #53FFAB;
     cursor: pointer;
     box-shadow: 0 5px 15px var(--advice-dice-color);
