@@ -2,8 +2,9 @@
 ## Tecnologias utilizadas
 - HTML
 - CSS
+- JS
+- API advices slip JSON 
 
 ## Imagem final 
-<img src="./src/images/final.jpg" alt="logo do thebank">
+<img src="./src/images/final.jpg" alt="cartaocom mensagem">
 
-### Em andamento
