@@ -1,11 +1,12 @@
 # Um cartão de mensagens que se atualiza
+
 ## Tecnologias utilizadas
 - HTML
 - CSS
 - JS
 - API advices slip JSON 
 
-### Aprendi muito nesse projeto ao implementar uma API. Entendendo o que se pedia e como faria isso com a API. 
+> Aprendi muito nesse projeto ao implementar uma API, entendendo o que se pedia e como faria isso. 
 
 
 ## Como ficou 
